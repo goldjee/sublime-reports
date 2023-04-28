@@ -1,0 +1,175 @@
+﻿{
+    "name": "Sublime Reports Light",
+    "dataColors": [
+        "#2987CF",
+        "#52B4FF",
+        "#FCC36D",
+        "#3BCF87",
+        "#DA6768",
+        "#838383",
+        "#C47AF5",
+        "#28609F",
+        "#EFA253",
+        "#239E62",
+        "#B8B8B8",
+        "#6F289E",
+        "#29CFB8",
+        "#E18139",
+        "#52FFAB",
+        "#C73133",
+        "#4D4D4D",
+        "#009E91",
+        "#52FFDF",
+        "#EC9C9C",
+        "#9A51CA"
+    ],
+    "foreground": "#0F0F0F",
+    "foregroundNeutralSecondary": "#939393",
+    "foregroundNeutralTertiary": "#ADADAD",
+    "background": "#FCFCFC",
+    "backgroundLight": "#E2E2E2",
+    "backgroundNeutral": "#C7C7C7",
+    "good": "#239E62",
+    "neutral": "#28609f",
+    "bad": "#C73133",
+    "maximum": "#2987CF",
+    "center": "#83BAE5",
+    "minimum": "#DCEDFA",
+    "tableAccent": "#28609f",
+    "textClasses": {
+        "header": {
+            "fontSize": 11,
+            "color": "#0F0F0F"
+        },
+        "label": {
+            "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif",
+            "fontSize": 11,
+            "color": "#0F0F0F"
+        },
+        "title": {
+            "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+            "fontSize": 11,
+            "color": "#0F0F0F"
+        },
+        "callout": {
+            "color": "#0F0F0F"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FCFCFC"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "checkboxAndApplyColor": {
+                            "solid": {
+                                "color": "#28609f"
+                            }
+                        },
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#FCFCFC"
+                            }
+                        }
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "background": {
+                            "solid": {
+                                "color": "#FCFCFC"
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": "#FCFCFC"
+                            }
+                        }
+                    }
+                ],
+                "visualTooltip": [
+                    {
+                        "titleFontColor": {
+                            "solid": {
+                                "color": "#E2E2E2"
+                            }
+                        },
+                        "valueFontColor": {
+                            "solid": {
+                                "color": "#FCFCFC"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#292929"
+                            }
+                        }
+                    }
+                ],
+                "visualHeaderTooltip": [
+                    {
+                        "titleFontColor": {
+                            "solid": {
+                                "color": "#E2E2E2"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#292929"
+                            }
+                        }
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#0F0F0F"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "Available",
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#0F0F0F"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FCFCFC"
+                            }
+                        },
+                        "transparency": 100
+                    }
+                ],
+                "outspace": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#FCFCFC"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
